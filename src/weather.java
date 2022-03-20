@@ -23,7 +23,7 @@ public class weather {
 
 class urltojson {
     public String ExtractJson(String city) throws IOException {
-        String key = "dcec2f2ed1135ea7fb32573bc472c23e";
+        String key = "";
         String createUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + key
                 + "&units=metric";
         // Creating an URL object
@@ -49,7 +49,7 @@ class urltojson {
 
 class url2tojson {
     public String ExtractJson(String city) throws IOException {
-        String key = "dcec2f2ed1135ea7fb32573bc472c23e";
+        String key = "";
         String createUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + key
                 + "&units=metric";
         // Creating an URL object
